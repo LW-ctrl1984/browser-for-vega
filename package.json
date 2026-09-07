@@ -19,8 +19,8 @@
   "dependencies": {
     "@amazon-devices/react-native-kepler": "^4.0.0",
     "@amazon-devices/webview": "^4.0.0",
-    "react": "19.2.0",
-    "react-native": "0.83.0"
+    "react": "19.2.8",
+    "react-native": "0.87.1"
   },
   "engines": {
     "node": ">=20"
@@ -54,7 +54,7 @@
     "targets": ["tv"]
   },
   "overrides": {
-    "react": "19.2.0",
-    "react-native": "0.83.0"
+    "react": "19.2.8",
+    "react-native": "0.87.1"
   }
 }
