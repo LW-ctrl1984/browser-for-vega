@@ -3,7 +3,7 @@ schema-version = 1
 [package]
 title = "Browser for Vega"
 version = "1.0.0"
-id = "com.wang.vegabrowser"
+id = "com.wang.webbrowser"
 icon = "@image/browser_for_vega.png"
 
 [os.version]
@@ -24,7 +24,7 @@ id = "/com.amazon.kepler.webview_4@IWebview_4"
 
 [components]
 [[components.interactive]]
-id = "com.wang.vegabrowser.main"
+id = "com.wang.webbrowser.main"
 runtime-module = "/com.amazon.kepler.runtime.react_native_kepler_4@IReactNativeKepler_0"
 launch-type = "singleton"
 categories = ["com.amazon.category.main"]

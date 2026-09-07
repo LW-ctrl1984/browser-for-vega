@@ -1,3 +1,5 @@
+English | [简体中文](README.zh-CN.md)
+
 # Browser for Vega
 
 > An independent, unofficial web browser project intended for use with Amazon Vega OS.
@@ -8,9 +10,17 @@ Browser for Vega is a community-developed project distributed independently thro
 
 The word **Vega** is used only to describe the intended platform compatibility and purpose of this project. This repository does not use Amazon or Vega logos as project branding.
 
+## Why this project?
+
+Some newer Fire TV devices run Vega OS, which uses VPKG applications instead of native Android APK packages. Existing Android APKs therefore cannot simply be installed locally on Vega OS in the same way as on traditional Fire OS devices.
+
+Developing native applications specifically for Vega OS can require additional development work and tooling. Browser for Vega was created as a lightweight, general-purpose web browser for Vega OS, allowing users to access web-based services directly from their Fire TV without requiring a separate native Vega application for every website.
+
+This project is independent and unofficial, and is not affiliated with or endorsed by Amazon.
+
 ## Project status
 
-Browser for Vega is an independent sideload-focused project. It is not presented as an official Vega browser and is not an Amazon-developed application.
+Browser for Vega is an independent sideload-focused project. It is not presented as an official browser for Vega OS and is not an Amazon-developed application.
 
 Source code and release packages will be maintained in this repository as development progresses.
 
@@ -113,7 +123,7 @@ After a successful build, locate the package with:
 find build -name '*.vpkg' -type f
 ```
 
-The application ID is `com.wang.vegabrowser.main`. Fire TV 4K Select uses the `armv7` release package.
+The application ID is `com.wang.webbrowser.main`. Fire TV 4K Select uses the `armv7` release package.
 
 ## Sideload and launch
 
@@ -127,7 +137,7 @@ Install and launch the release package:
 
 ```bash
 vega device install-app --packagePath build/armv7-release/vegabrowser_armv7.vpkg
-vega device launch-app --appName com.wang.vegabrowser.main
+vega device launch-app --appName com.wang.webbrowser.main
 ```
 
 When more than one device is connected, add the device selector shown by `vega device list` to the commands. Developer-mode enrollment and device authorization must be completed according to Amazon's current Vega OS documentation.
